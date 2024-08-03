@@ -40,14 +40,14 @@ function Homepage() {
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs">Location</p>
-              <p className="text-neutral-500 text-xs ">New York</p>
+              <p className="text-neutral-500 text-xs ">New Delhi</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
           <motion.img
             whileHover={{ scale: 3 }}
             className="h-full w-full duration-300 transition-all ease-in-out object-cover"
-            src={theme == "dark" ? "/lightm.bmp" : "/map.webp"}
+            src={theme == "dark" ? "/lightm.bmp" : "/map.jpg"}
             alt=""
           />
         </motion.div>
@@ -91,24 +91,22 @@ function Homepage() {
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs">About</p>
-              <p className="text-neutral-500 text-xs ">Joscript Stone</p>
+              <p className="text-neutral-500 text-xs ">Maanik Sharma</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
 
           <div className="mt-14 px-3 pb-3">
             <p className="text-xs font-semibold   leading-5">
-              Am Joscript Stone, an adventurous Creative Director based in the
-              vibrant city of San Francisco. With a keen eye for aesthetics, a
-              passion for innovation, and a drive for designs that leaves a
-              lasting impact. let's collaborate and bring your creative visions
-              to life
+              I am Maanik, a tech enthusiast driven by a passion for coding.
+              Currently based in New Delhi, India, studying Artificial Intelligence and Machine Learning.
+              Enjoys experimenting with React, Next.JS, TypeScript, AIML and Java.
             </p>
           </div>
         </motion.div>
         <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg col-span-2 row-span-2 relative  overflow-hidden  ">
           <div className=" absolute w-full p-2 z-20">
-            <p className="text-xs">Experience & Education</p>
+            <p className="text-xs">Experience</p>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
 
@@ -120,13 +118,12 @@ function Homepage() {
             {/* Starts */}
             <div className="flex gap-x-3 mt-16 px-2  ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2002 -- 2012
+              July 2024 - Present
               </p>
               <div>
-                <h4 className="text-xs font-bold">Creative Studio Owner</h4>
+                <h4 className="text-xs font-bold">Defense Research and Development Organisation (DRDO)</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Self-employed at my own creative studio, delivering innovative
-                  design solutions and giving value to your brand experience.
+                AI and Web Dev Intern
                 </p>
               </div>
             </div>
@@ -137,12 +134,12 @@ function Homepage() {
 
             <div className="flex  gap-x-3 px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2020 -- 2022
+              April 2024 - Present
               </p>
               <div>
-                <h4 className="text-xs font-bold">Nike Headquarters</h4>
+                <h4 className="text-xs font-bold">Zummit Infolabs</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Designer & Creative Director
+                Junior Web Developer
                 </p>
               </div>
             </div>
@@ -153,12 +150,12 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2018 -- 2020
+              April 2024 - July 2024
               </p>
               <div>
-                <h4 className="text-xs font-bold">Spotify</h4>
+                <h4 className="text-xs font-bold">Pyjamawala.com</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Designer & Art Director.
+                Web Development Intern (Freelance) 
                 </p>
               </div>
             </div>
@@ -169,15 +166,15 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2016 -- 2018
+                July 2023 - Sept. 2023
               </p>
               <div>
-                <h4 className="text-xs font-bold">Apple</h4>
-                <p className="text-[11px] text-neutral-500">Product Designer</p>
+                <h4 className="text-xs font-bold">Brain Mentors</h4>
+                <p className="text-[11px] text-neutral-500">MERN Stack Training</p>
               </div>
             </div>
 
-            <div className="px-2 my-3 ">
+            {/* <div className="px-2 my-3 ">
               <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
             </div>
 
@@ -249,7 +246,7 @@ function Homepage() {
                 <h4 className="text-xs font-bold">Norm Zurich</h4>
                 <p className="text-[11px] text-neutral-500">Internship</p>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* Gradient  */}
           <div className=" bg-gradient-to-t  w-full absolute z-10 from-white via-white dark:from-[#1E1E1E] dark:via-[#1E1E1E] to-transparent bottom-0   h-12 transition-all ease-in duration-200" />
@@ -273,9 +270,9 @@ function Homepage() {
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">FreeScribe</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  A web app which transcribe or translate the audio file or on spot recordings.
                   </p>
                 </div>
 
@@ -295,9 +292,10 @@ function Homepage() {
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">DevDetective</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  A tool by which we can find/detect any developer’s github account
+
                   </p>
                 </div>
 
@@ -317,9 +315,9 @@ function Homepage() {
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">Citadel</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  is a secure crypto wallet designed to combat financial frauds.
                   </p>
                 </div>
 
@@ -377,23 +375,23 @@ function Homepage() {
         <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 overflow-hidden relative shadow-xl rounded-lg min-h-[50px] col-span-2 row-span-3 md:row-span-2 ">
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
-              <p className="text-xs">Latest Work</p>
-              <p className="text-neutral-500 text-xs ">Waitlist</p>
+              <p className="text-neutral-800 text-xs">Latest Work</p>
+              <p className="text-neutral-800 text-xs ">Real-Time-Tracker-App</p>
             </div>
             <div className="w-full h-[0.4px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
-
+          
           <Image
             width={900}
             height={300}
             className="h-full duration-300 hover:scale-110 transition-all ease-in-out object-cover"
-            src={"/jo8.jpeg"}
+            src={"/latestProject.png"}
             alt=""
           />
         </div>
         <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg col-span-2  relative  overflow-hidden  ">
           <div className=" absolute w-full p-2 z-20">
-            <p className="text-xs">Side Projects</p>
+            <p className="text-xs">PUBLICATIONS & HACKATHONS</p>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
 
@@ -405,11 +403,11 @@ function Homepage() {
             {/* Starts */}
             <div className="flex gap-x-3 mt-14 px-2  ">
               <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                Since 2023
+                {/* Since 2023 */}
               </p>
               <div>
-                <h4 className="text-xs font-bold">WebFlow</h4>
-                <p className="text-[11px] text-neutral-500">Official partner</p>
+                <h4 className="text-xs font-bold">Assisted Living Robots</h4>
+                <p className="text-[11px] text-neutral-500">Research Paper</p>
               </div>
             </div>
 
@@ -418,10 +416,12 @@ function Homepage() {
             </div>
 
             <div className="flex  gap-x-3 px-2 relative ">
-              <p className="text-white  text-xs w-20 shrink-0  ">Since 2021</p>
+              <p className="text-white  text-xs w-20 shrink-0  ">
+              {/* Since 2021 */}
+              </p>
               <div>
-                <h4 className="text-xs font-bold">Awwward</h4>
-                <p className="text-[11px] text-neutral-500">Jury Member</p>
+                <h4 className="text-xs font-bold">HackHazard</h4>
+                <p className="text-[11px] text-neutral-500">2nd place in the HackHazard hackathon</p>
               </div>
             </div>
 
@@ -431,11 +431,11 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                Since 2018
+                {/* Since 2018 */}
               </p>
               <div>
-                <h4 className="text-xs font-bold">ADC Club Global</h4>
-                <p className="text-[11px] text-neutral-500">Jury Member</p>
+                <h4 className="text-xs font-bold">PitchitUp</h4>
+                <p className="text-[11px] text-neutral-500"> Ranked Among Top 5 Participants in the Ideathon Event</p>
               </div>
             </div>
 
@@ -472,8 +472,8 @@ function Homepage() {
         >
           <div>
             <p className="text-[10px] mt-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-              optio vel officia.
+            Thank you for visiting my portfolio website! Your time and interest are greatly appreciated.
+            Feel free to reach out with any questions or feedback.
             </p>
 
             <div className="flex items-center gap-x-2 mt-7">
@@ -486,8 +486,8 @@ function Homepage() {
               />
 
               <div className="">
-                <p className="text-xs">JoScript</p>
-                <p className="text-xs">Founder, Joscript</p>
+                <p className="text-xs">Maanik</p>
+                {/* <p className="text-xs">Founder, Joscript</p> */}
               </div>
             </div>
           </div>
@@ -504,7 +504,7 @@ function Homepage() {
               <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
             </div>
             <div className="mt-10  w-full flex justify-center items-center">
-              <h1 className="text-8xl">17</h1>
+              <h1 className="text-8xl">3+</h1>
             </div>
           </motion.div>
           <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg h-44 p-2 relative z-40">
@@ -515,11 +515,11 @@ function Homepage() {
               </div>
             </div>
             <div className="mt-24 w-full">
-              <button className="text-xs flex w-full items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40">
+              <button className="text-xs flex w-full items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40"  onClick={() => window.open('https://drive.google.com/file/d/1hBsSc6D6gkLemxf0I-qrtkiYrAgeR7KA/view?usp=sharing', '_blank')}>
                 <span>View</span>
                 <PiArrowUpRight />
               </button>
-              <button className="text-xs flex w-full mt-3 items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40">
+              <button className="text-xs flex w-full mt-3 items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40" onClick={() => window.open('https://drive.google.com/file/d/1hBsSc6D6gkLemxf0I-qrtkiYrAgeR7KA/view?usp=sharing', '_blank')}>
                 <span>Download</span>
                 <PiArrowDownThin />
               </button>

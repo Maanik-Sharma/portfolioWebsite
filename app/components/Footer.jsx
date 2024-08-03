@@ -8,10 +8,10 @@ function Footer() {
         <div className="flex justify-between  py-5 items-center text-neutral-600 text-sm">
           <div className="flex ">
             <span>©</span>
-            <p>Joscript Widgets</p>
+            <p>Decipher</p>
           </div>
 
-          <p>Created by Joscript</p>
+          <p>Created by Maanik Sharma</p>
         </div>
       </div>
     </div>

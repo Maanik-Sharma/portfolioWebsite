@@ -170,22 +170,24 @@ function HeaderPage() {
             width={200}
             height={200}
             className="w-10 h-10 rounded-full object-cover"
-            src="/jo3.jpeg"
+            src="/Maanik.LinkedInPfp.jpeg"
             alt=""
           />
 
           <div>
-            <h4 className="text-xs ">Joscript Joeeeeeeee</h4>
-            <p className="text-[#828282] text-xs">Software Developer</p>
+            <h4 className="text-xs ">Maanik Sharma</h4>
+            <p className="text-[#828282] text-xs">ML & Web Dev Enthusiast</p>
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <button className="flex w-40 items-center justify-between border border-neutral-600 rounded-full p-1 px-5">
-            <span className="text-xs">Buy my Template</span>
+            <span className="text-xs">
+            Buy my Template
+            </span>
             <PiArrowRightThin />
           </button>
-        </div>
+        </div> */}
       </nav>
 
       <div className="mx-auto w-full max-w-[1120px] mt-4 flex justify-center relative">
